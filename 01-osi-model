@@ -1,0 +1,72 @@
+# OSI Model
+
+## 📌 Overview
+The Open Systems Interconnection (OSI) Model is a conceptual framework used to understand how data travels between devices over a network.
+
+---
+
+## 🎯 Why OSI Model?
+
+- Standardizes network communication
+- Helps troubleshoot network issues
+- Separates networking into layers
+- Makes protocol development easier
+
+---
+
+## 🏗 The 7 Layers
+
+| Layer | Name | Example |
+|-------|------|---------|
+| 7 | Application | HTTP, FTP |
+| 6 | Presentation | SSL, JPEG |
+| 5 | Session | NetBIOS |
+| 4 | Transport | TCP, UDP |
+| 3 | Network | IP |
+| 2 | Data Link | Ethernet |
+| 1 | Physical | Cable, Fiber |
+
+---
+
+## 📡 Devices
+
+Layer 1 → Hub
+
+Layer 2 → Switch
+
+Layer 3 → Router
+
+---
+
+## 🌍 Real World Example
+
+Sending a WhatsApp message:
+
+Application → Creates the message
+
+Transport → Breaks into segments
+
+Network → Finds destination
+
+Data Link → Frames
+
+Physical → Sends bits
+
+---
+
+## 💼 Interview Questions
+
+1. Why is the OSI Model used?
+2. Which layer is responsible for routing?
+3. Which layer uses IP?
+4. Difference between Layer 2 and Layer 3?
+
+---
+
+## 📚 References
+
+Cisco CCNA Documentation
+
+RFC Standards
+
+Computer Networks – Andrew S. Tanenbaum
